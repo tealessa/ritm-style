@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    max-width: 1920px;
+    background-color: #162831;
+    font-family: 'ProximaNova', sans-serif;
+    font-weight: 300px;
+    color: #ffffff;
+    margin: 0 auto;
+  }
+  @font-face{
+
+    font-family: 'ProximaNova';
+    src: url('/fonts/ProximaNova-Regular.woff')
+}
+
+  .container {
+    padding: 0 16.25%;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    
+  }
+  
+  .header__burger {
+    display: none;
+  }
+  
+  .header__logo {
+    margin-right: 11%;
+  }
+  
+  .header__nav {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .header__item:not(:last-child) {
+    margin-right: 50px;
+  }
+  
+  .header__link {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .header__link:hover {
+    color: #018abe;
+  }
+  
+  .button {
+    width: 155px;
+    min-height: 36px;
+    background-color: #018abe;
+    border-radius: 3px;
+    font-size: 10px;
+    font-weight: 600;
+    color: #ffffff;
+    padding: 9px 15px;
+    cursor: pointer;
+    font-family:'ProximaNova' ;
+    border:none;
+  }
+  .header__item{
+    list-style-type: none;
+  }
+  
